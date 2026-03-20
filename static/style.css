@@ -1,0 +1,81 @@
+/* 🔮 Background & Base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 🧠 Main Container */
+.container {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* 🔮 Title */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #38bdf8;
+}
+
+/* 📥 Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+/* 🚀 Button */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background: #38bdf8;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #0ea5e9;
+    transform: scale(1.05);
+}
+
+/* 🔮 Result Box */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    background: rgba(56, 189, 248, 0.1);
+    font-size: 14px;
+}
+
+/* ✨ Glow Effect */
+.container:hover {
+    box-shadow: 0 0 40px rgba(56, 189, 248, 0.6);
+}
+
+/* 📱 Responsive */
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}
