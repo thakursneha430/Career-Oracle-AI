@@ -17,29 +17,27 @@ Built using Machine Learning, this project helps confused souls (yes, us 😭) f
 - 💻 Can be extended into a web app (Flask)
 
 ## 🛠️ Tech Stack
-"Python" (https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
-"Pandas" (https://img.shields.io/badge/Pandas-Data%20Processing-yellow?logo=pandas)
-"Scikit-Learn" (https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
-"NumPy" (https://img.shields.io/badge/NumPy-Computing-lightblue?logo=numpy)
-"Flask" (https://img.shields.io/badge/Flask-Web%20Framework-black?logo=flask)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ## 📁 Project Structure
-career-oracle-ai/
-│
-├── data/
-│   └── dataset.csv          # Training dataset
-│
-├── model/
-│   └── model.pkl            # Trained ML model
-│
-├── src/
-│   ├── preprocessing.py     # Data cleaning & preprocessing
-│   ├── predictor.py         # Prediction logic
-│   └── train_model.py       # Model training script
-│
-├── app.py                   # Flask web app
-├── requirements.txt         # Dependencies
-├── README.md                # Project documentation
+career-oracle-ai/<br>
+│<br>
+├── data/ <br>
+│   └── dataset.csv          # Training dataset<br>
+│<br>
+├── model/<br>
+│   └── model.pkl            # Trained ML model<br>
+│<br>
+├── src/<br>
+│   ├── preprocessing.py     # Data cleaning & preprocessing<br>
+│   ├── predictor.py         # Prediction logic<br>
+│   └── train_model.py       # Model training script<br>
+│<br>
+├── app.py                   # Flask web app<br>
+├── requirements.txt         # Dependencies<br>
+├── README.md                # Project documentation<br>
 
 ## 🤝 Contributing
 Contributions are welcome! 🎉<br>
