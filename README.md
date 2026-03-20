@@ -38,7 +38,7 @@ career-oracle-ai/<br>
 │<br>
 ├── app.py                   # Flask web app<br>
 ├── requirements.txt         # Dependencies<br>
-├── README.md                # Project documentation<br>
+├── README.md                # Project documentat<br>
 
 ## 🤝 Contributing
 Contributions are welcome! 🎉<br>
