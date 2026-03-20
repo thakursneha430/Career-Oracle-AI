@@ -25,40 +25,40 @@ Built using Machine Learning, this project helps confused souls (yes, us 😭) f
 ## 📁 Project Structure
 career-oracle-ai/<br>
 │<br>
-├── app.py           <br>  </br>      # 🚀 Main Flask app entry<br>
-├── requirements.txt   <br>  </br>    # 📦 Dependencies<br>
+├── app.py               # 🚀 Main Flask app entry<br>
+├── requirements.txt       # 📦 Dependencies<br>
 │<br>
 ├── api/<br>
 │   ├── __init__.py<br>
-│   └── routes.py    <br>  </br>   # 🌐 API endpoints (/predict)
+│   └── routes.py       # 🌐 API endpoints (/predict)<br>
 │<br>
 ├── config/<br>
 │   ├── __init__.py<br>
-│   └── settings.py   <br>  </br>    # ⚙️ Paths & config
+│   └── settings.py       # ⚙️ Paths & config<br>
 │<br>
 ├── model/<br>
 │   ├── __init__.py<br>
-│   ├── train_model.py   <br>  </br>   # 🧠 Train ML model
-│   ├── predictor.py    <br>  </br>    # 🔮 Prediction logic (MAIN BRAIN)
-│   ├── model.pkl       <br>  </br>    # 🤖 Trained model
-│   └── vectorizer.pkl  <br>  </br>    # 🔤 Text vectorizer
+│   ├── train_model.py     # 🧠 Train ML model<br>
+│   ├── predictor.py       # 🔮 Prediction logic (MAIN BRAIN)<br>
+│   ├── model.pkl           # 🤖 Trained model<br>
+│   └── vectorizer.pkl    # 🔤 Text vectorizer<br>
 │<br>
 ├── data/<br>
-│   └── careers.csv     <br>  </br>    # 📊 Dataset
+│   └── careers.csv        # 📊 Dataset<br>
 │<br>
 ├── utils/<br>
 │   ├── __init__.py<br>
-│   └── helpers.py       <br>  </br>  # 🧹 Input cleaning + helpers
+│   └── helpers.py         # 🧹 Input cleaning + helpers<br>
 │<br>
 ├── templates/<br>
-│   └── index.html    <br>  </br>      # 🎨 Frontend HTML
+│   └── index.html   # 🎨 Frontend HTML<br>
 │<br>
 ├── static/<br>
-│   ├── style.css    <br>  </br>      # 🎨 Styling
-│   └── script.js     <br>  </br>   # ⚡ Frontend logic
+│   ├── style.css         # 🎨 Styling<br>
+│   └── script.js     # ⚡ Frontend logic<br>
 │<br>
 └── notebooks/<br>
-    └── experimentation.ipynb <br>  </br>  # 🧪 Testing models (optional)
+    └── experimentation.ipynb  # 🧪 Testing models (optional)<br>
 
 ## 🤝 Contributing
 Contributions are welcome! 🎉<br>
