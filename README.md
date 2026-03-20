@@ -25,20 +25,40 @@ Built using Machine Learning, this project helps confused souls (yes, us 😭) f
 ## 📁 Project Structure
 career-oracle-ai/<br>
 │<br>
-├── data/ <br>
-│   └── dataset.csv          # Training dataset<br>
+├── app.py             <br>     # 🚀 Main Flask app entry
+├── requirements.txt    <br>   # 📦 Dependencies
+│<br>
+├── api/<br>
+│   ├── __init__.py<br>
+│   └── routes.py       <br>   # 🌐 API endpoints (/predict)
+│<br>
+├── config/<br>
+│   ├── __init__.py<br>
+│   └── settings.py   <br>     # ⚙️ Paths & config
 │<br>
 ├── model/<br>
-│   └── model.pkl            # Trained ML model<br>
+│   ├── __init__.py<br>
+│   ├── train_model.py <br>    # 🧠 Train ML model
+│   ├── predictor.py       <br># 🔮 Prediction logic (MAIN BRAIN)
+│   ├── model.pkl         <br> # 🤖 Trained model
+│   └── vectorizer.pkl    <br> # 🔤 Text vectorizer
 │<br>
-├── src/<br>
-│   ├── preprocessing.py     # Data cleaning & preprocessing<br>
-│   ├── predictor.py         # Prediction logic<br>
-│   └── train_model.py       # Model training script<br>
+├── data/<br>
+│   └── careers.csv    <br>    # 📊 Dataset
 │<br>
-├── app.py                   # Flask web app<br>
-├── requirements.txt         # Dependencies<br>
-├── README.md                # Project documentation<br>
+├── utils/<br>
+│   ├── __init__.py<br>
+│   └── helpers.py     <br>    # 🧹 Input cleaning + helpers
+│<br>
+├── templates/<br>
+│   └── index.html      <br>   # 🎨 Frontend HTML
+│<br>
+├── static/<br>
+│   ├── style.css     <br>     # 🎨 Styling
+│   └── script.js   <br>       # ⚡ Frontend logic
+│<br>
+└── notebooks/<br>
+    └── experimentation.ipynb <br> # 🧪 Testing models (optional)
 
 ## 🤝 Contributing
 Contributions are welcome! 🎉<br>
